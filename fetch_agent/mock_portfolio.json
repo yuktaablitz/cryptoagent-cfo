@@ -1,0 +1,10 @@
+{
+  "account": "demo_student",
+  "base_currency": "USD",
+  "holdings": [
+    {"symbol": "BTC", "amount": 0.0123, "usd_value": 850},
+    {"symbol": "ETH", "amount": 0.25, "usd_value": 450},
+    {"symbol": "SOL", "amount": 5.0, "usd_value": 200}
+  ],
+  "total_usd": 1500
+}
