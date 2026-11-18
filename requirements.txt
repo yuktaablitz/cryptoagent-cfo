@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pydantic>=2
+uagents>=0.26
+uagents-core
+python-dotenv

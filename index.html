@@ -293,7 +293,8 @@
     </div>
 
     <script>
-        const ACTION_URL = 'https://jussive-lonnie-gallantly.ngrok-free.dev';
+        // Agent URL: defaults to a locally running agent; override with ?api=https://your-tunnel.example
+        const ACTION_URL = new URLSearchParams(window.location.search).get('api') || 'http://localhost:8080';
         
         async function analyzePortfolio() {
             const userInput = document.getElementById('userInput').value;
