@@ -4,6 +4,9 @@ from pydantic import BaseModel
 from uagents import Agent, Context
 from typing import Optional, List
 import os, json, re
+from dotenv import load_dotenv
+
+load_dotenv()
 
 AGENT_SEED = os.environ.get("AGENT_SEED", "cryptoagent-cfo-calhacks-2025")
 AGENT_PORT = int(os.environ.get("AGENT_PORT", "8080"))
